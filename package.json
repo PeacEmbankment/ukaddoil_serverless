@@ -1,0 +1,25 @@
+{
+  "name": "ukaddoil_serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongodb": "^3.6.9",
+    "netlify-cli": "^3.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeacEmbankment/ukaddoil_serverless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeacEmbankment/ukaddoil_serverless/issues"
+  },
+  "homepage": "https://github.com/PeacEmbankment/ukaddoil_serverless#readme"
+}
