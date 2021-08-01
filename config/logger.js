@@ -13,9 +13,9 @@ const winstonLogger = createLogger({
         
         new transports.MongoDB({
 //            level: 'error',
-            //db: process.env.MONGODB,
+            db: process.env.MONGODB,
             //db: 'mongodb://localhost:27017/nodejs',
-            db: process.env.MONGODB_FOR_NODEJS_LOG,
+            //db: process.env.MONGODB_FOR_NODEJS_LOG,
             options: {
                 useUnifiedTopology: true
             },
