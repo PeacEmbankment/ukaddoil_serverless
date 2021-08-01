@@ -6,9 +6,9 @@
   # publish = "."
   
   # This will be run the site build
-  command = "npm run build"
+  # command = "npm run build"
   # This is the directory is publishing to netlify's CDN
-  publish = "build"
+  # publish = "build"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
