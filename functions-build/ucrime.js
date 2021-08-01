@@ -107,7 +107,7 @@ __webpack_require__(/*! dotenv */ "../node_modules/dotenv/lib/main.js");
 const winstonLogger = createLogger({
   transports: [new transports.MongoDB({
     //            level: 'error',
-    //db: process.env.MONGODB,
+    //db: process.env.MONGODB_URL,
     //db: 'mongodb://localhost:27017/nodejs',
     db: process.env.MONGODB_FOR_NODEJS_LOG,
     options: {
