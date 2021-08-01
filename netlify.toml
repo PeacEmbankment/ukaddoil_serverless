@@ -1,4 +1,5 @@
 # example netlify.toml
+# edit 20210801-1310
 [build]
   # command = "# no build command"
   #functions = "functions"
